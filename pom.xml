@@ -7,11 +7,9 @@
     <groupId>com.github.olegik1719.testxmlrest</groupId>
     <artifactId>root</artifactId>
     <version>0.0.1</version>
+    <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
+    <modules>
+        <module>openapiservice</module>
+    </modules>
 </project>
